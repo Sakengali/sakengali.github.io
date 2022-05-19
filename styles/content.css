@@ -1,0 +1,21 @@
+#content{
+    float: left;
+    width: 100px
+}
+
+#things{
+    float: right;
+    width: 400px
+}
+
+.body1{
+    width: 500px
+}
+
+.quote{
+    font-style: italic;
+}
+
+.author{
+    text-align: right;
+}
