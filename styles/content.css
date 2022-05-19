@@ -5,17 +5,19 @@
 
 #things{
     float: right;
-    width: 400px
-}
-
-.body1{
     width: 500px
 }
 
+.body1{
+    width: 600px
+}
+
 .quote{
-    font-style: italic;
+    font-size: 12px;
+    text-indent: 12px;
 }
 
 .author{
     text-align: right;
+    font-size: 12px;
 }
