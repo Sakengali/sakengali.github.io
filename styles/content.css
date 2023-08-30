@@ -16,6 +16,14 @@
     width: 600px;
 }
 
+.content > a{
+    color: #03756d;
+}
+
+.content > a:visited{
+    color: #03756d;
+}
+
 .quote{
     font-size: 14px;
     text-indent: 12px;
@@ -24,8 +32,12 @@
 .publication{
     font-size: 16px;
     font-style: italic;
+    color: #015AA4;
 }
 
+.publication:visited{
+    color: #015AA4;
+}
 
 .author{
     text-align: right;
