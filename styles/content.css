@@ -56,3 +56,13 @@ a:hover{
 .photo-div{
     color: #024a84;
 }
+
+.description{
+    float: right;
+    width: 480px;
+
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
