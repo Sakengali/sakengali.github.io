@@ -35,41 +35,5 @@
         </div>
     </div>
 
-    <form id="book-form">
-        <input type="text" id="book-name" placeholder="Book Name">
-        <input type="text" id="link" placeholder="book link">
-        <select name="book-class" id="book-class">
-            <option value="great">great</option>
-            <option value="good">good</option>
-            <option value="fine">fine</option>
-        </select>
-        <input type="submit" value="Submit">    
-    </form>
-
-    <script>
-        document.getElementById('book-form').addEventListener('submit', function (event) {
-            event.preventDefault(); // Prevent the form from submitting the traditional way
-
-            // Get the form data
-            const book_name = document.getElementById('book-name').value;
-            const book_link = document.getElementById('link').value;
-            const book_class = document.getElementById('book-class').value;
-
-            // Create a new link element
-            const link = document.createElement('a');
-            link.href = book_link
-            link.textContent = book_name
-            link.classList.add('book-item')
-            link.classList.add(book_class)
-            link.style.display = 'block'; // Make the link display as a block element
-
-            // Append the link to the container
-            document.getElementById('book-list-div').appendChild(link);
-            console.log(book_name, book_link, book_class)
-            // Clear the form fields
-            document.getElementById('book-form').reset();
-        });
-    </script>
-
 </body>
 </html>
